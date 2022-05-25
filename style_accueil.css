@@ -1,0 +1,124 @@
+#barreAccueil {
+    padding : 10px;
+    background-color:white;
+    background: none;
+    color: rgb(23, 23, 61);
+}
+
+a {
+    font-style:normal;
+    text-decoration: none;
+}
+
+#barreAccueil:hover {
+    background: linear-gradient(to right,orange, blue);
+}
+#logo{
+    width: 400%;
+}
+table{
+    width: 90%;
+    margin : 5%;
+    margin-top: 2%;
+    font-size: 130%;
+}
+.objetAccueil {
+    width : 33%;
+    border-style : none;
+    border-radius: 10%;
+    border-color:orangered;
+     
+}
+
+a:hover {
+    color : orange;
+}
+
+html {
+    
+    width: 100%;
+}
+
+h1 {
+    text-align-last: center;
+    padding: 10%;
+    color : rgb(5, 0, 80);
+    font-size: 400%;
+    
+}
+
+
+#barreBas {
+    background-color: white;
+    border: none;
+    margin-bottom: -20px;
+    margin-left: -2%;
+    width: 100.9%;
+    height: 119px;
+    visibility: hidden;
+}
+
+
+html {
+    background-image: url(/DM/img_icon/plane.gif);
+    background-size: 100%;
+    background-position: 1%;
+    background-repeat: no-repeat;
+}
+
+
+.arrows {
+    width: 3%;
+    background-color:none;
+    margin-top: -15%;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+}
+
+.arrows:hover {
+    background-color: aliceblue;
+}
+
+
+#arrowLeft {
+    border-left-color: orange;
+    border-right-color: aqua;
+    border-top-color: rgb(255, 210, 88);
+    border-bottom-color: rgb(142, 255, 255);
+}
+
+#arrowright{
+    border-right-color: orange;
+    border-left-color: aqua;
+    border-top-color: rgb(255, 210, 88);
+    border-bottom-color: rgb(142, 255, 255);
+}
+
+#ligne {
+    display: block;
+    background-color:rgb(23, 23, 61);
+    width: 48%;
+    position: relative;
+    top : -28%;
+    right : -26%;
+    height: 1%;
+    border-style: solid;
+    border-right-color: orange;
+    border-left-color: aqua;
+    border-top-color: rgb(255, 210, 88);
+    border-bottom-color: rgb(142, 255, 255);
+
+}
+
+
+
+
+
+#voirCircuits {
+    border-style:none ;
+    background: linear-gradient(to left,blue,aqua);
+    color : white;
+    padding : 1%;
+    margin-left: 48%;
+}

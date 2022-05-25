@@ -1,0 +1,282 @@
+#barreAccueil {
+    padding : 10px;
+    background-color:white;
+    background: none;
+    color: rgb(23, 23, 61);
+}
+
+a {
+    font-style:normal;
+    text-decoration: none;
+}
+
+#barreAccueil:hover {
+    background: linear-gradient(to right,orange, blue);
+}
+#logo{
+    width: 400%;
+}
+table{
+    width: 90%;
+    margin : 5%;
+    margin-top: 2%;
+    font-size: 130%;
+}
+.objetAccueil {
+    width : 33%;
+    border-style : none;
+    border-radius: 10%;
+    border-color:orangered;
+     
+}
+
+a:hover {
+    color : orange;
+}
+
+
+
+
+/*------------------*/
+
+html {
+    background-color: rgb(120, 143, 180);
+    background-image: url("fond/fond-circuit.jpg");
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: 100% 20.3%;
+
+}
+
+
+.hidden {
+    visibility: hidden;
+    
+}
+
+
+
+div {
+    background-color: white;
+    height: 100%;
+    position: relative;
+    top : 0%;
+    width: 27%;
+    right: -69%;
+    word-break:keep-all;
+    padding: 2%;
+    border-style:solid;
+    border-color: rgb(133, 133, 133);
+    border-top: white;
+    border-left: rgb(219, 219, 219);
+    font-size: 130%;
+    
+}
+
+.details {
+    border-style: none;
+    background-color:rgb(255, 153, 0);
+    padding: 2%;
+    color: white;
+    align-content: center;
+    position: relative;
+    right: -80%;
+    
+}
+
+img {
+    width: 70%;
+    box-shadow: -7px 12px rgb(73, 73, 73);
+}
+
+#montFuji{
+    position: relative;
+    top : 130%;
+    width: 50%;
+}
+#kyoto {
+    position: relative;
+    width: 30%;
+    top : 130%;
+    left : -10%;
+}
+#osaka {
+    width: 50%;
+    position: relative;
+    top : 121%;
+    left : -2%;
+}
+
+#campagne {
+    width: 40%;
+    position: relative;
+    top : 110%;
+    left : -20%;
+}
+
+h1 {
+    text-align: center ;
+}
+
+p{
+    text-align: right;
+}
+
+#recherche{
+    display:contents ;
+    height: 100%;
+    width:100%;
+    position: relative;
+    top : -30%;
+    width: 100%;
+    right: 0%;
+    word-break:unset;
+    padding: 00%;
+    border-style:none;
+
+}
+
+input {
+    position: relative;
+    left : 25%;
+    top : 20%;
+    width: 50%;
+    height: 10%;
+    font-size: 240%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orange;
+    text-align: center;
+}
+
+select {
+    color: gray;
+    font-size: 150%;
+    height: 5%;
+    width: 20%;
+    position: relative;
+    top : 25%;
+    left : 28%;
+}
+
+option{
+    font-size: 100%;
+    color :black;
+}
+
+#OK {
+    width: 3%;
+    position: relative;
+    top : 21%;
+    left : 20%;
+    box-shadow: 0 0px;;
+}
+
+.blockDetails {
+    
+    text-align-last: left;
+    width: 310%;
+    height: 100%;
+    position: relative;
+    top :-70%;
+    left:-250%;
+    text-align: left;
+    margin: 5%;
+    
+}
+
+.blockDetailsJapon {
+    visibility: hidden;
+}
+
+.blockDetailsGrece {
+    visibility: hidden;
+}
+
+.blockDetailsCaribous {
+    visibility: hidden;
+}
+
+.cross {
+    width : 3%;
+    box-shadow: none;
+    
+}
+
+#remonte {
+    width: 5%;
+    margin-top: 0%;
+    position: sticky;
+    top : 90%;
+    bottom: -100%;
+    visibility: visible ;
+    background-color: white;
+  
+    
+}
+
+
+
+#peloponnese {
+    position: relative;
+    width: 40%;
+    height: 60%;
+    top : 200%;
+    left : 0%;
+}
+#athene {
+    width: 50%;
+    position: relative;
+    top : 80%;
+    left : 38%;
+}
+#thessalonique{
+    position: relative;
+    top : 180%;
+    width: 60%;
+}
+
+
+
+
+
+#kamloops{
+    position: relative;
+    top : 120%;
+    width: 50%;
+}
+#vancouver-ile {
+    position: relative;
+    width: 40%;
+    top : 130%;
+    left : -20%;
+}
+#vancouver {
+    width: 60%;
+    position: relative;
+    top : 120%;
+    left : 0%;
+}
+
+#logo {
+    box-shadow: none;
+}
+
+
+#remonte {
+    box-shadow: none;
+
+}
+
+
+.reserver {
+    margin-left: 90%;
+    border-style: none;
+    background-color: orange;
+    padding: 2%;
+}
+
+.reserver:active {
+    background-color: orangered;
+}
+

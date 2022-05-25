@@ -1,0 +1,120 @@
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style_circuits.css">
+    </head>
+
+    <body>
+        
+            <table id="barreAccueil">
+                <tr>
+                    <td >
+                        <img id="logo" src="telegram-brands.svg">
+                    
+                    </td>
+                    <td align="center" class="objetAccueil">
+                        <a href="page_accueil.html"> ACCUEIL </a>
+                    </td>
+                    <td align="center" class="objetAccueil">
+                        <a href="circuits.html" >LISTES DES CIRCUITS </a>
+                    </td>
+                    <td align="center"class="objetAccueil">
+                        <a href="page dinscription.html">INSCRIPTION/CONNEXION </a>
+                    </td>
+                </tr>
+            </table> 
+
+        <div id="recherche">
+            <input id="chercheCircuit" type="text" placeholder="Je cherche le circuit...">
+            <img id="OK" src="img_icon/paper-plane-solid.svg">
+            
+            <br><br><br>
+        
+        </div>
+        <br>
+
+        <img id="montFuji"class="imageJapon" src="image japon/mont-fuji.jpg">
+        <img id="kyoto"class="imageJapon" src="image japon/kyoto.jpg">
+        <img id="osaka" class="imageJapon" src="image japon/chateau-d-osaka.jpg">
+        <img id="campagne" class="imageJapon" src="image japon/campagne-japon.jpg">
+        <div id ="Japon">
+            <br><br><br><br>
+            <h1>Voyage sur l'archipel nippon</h1>
+            <p>Venez visiter les villes les plus emblématiques du Japon, pays entre tradition et modernité, durant ce voyage, vous pourrez visitez des temples
+                comme le fameux centre commercial Pokemon,puis descendrer vers des petits villages de campagnes, pour visitez le mont fuji, et bien plus encore!</p>
+                <button onclick="clickDetailsJapon()" class="details" id="detailsJapon">Détails</button>
+                <div class="blockDetailsJapon blockDetails"id="blockDetailsJapon" >
+                    <img align="right" onclick="crossJapon()" class="cross" id="JaponCross" src="img_icon/times-solid.svg">
+                <p class="detailsJapon">Villes : Tokyo, Hakone, Kyoto, Osaka</p>
+                <p class="detailsJapon">Début : 15/04/22</p>
+                <p class="detailsJapon">Fin : 30/04/22</p>
+                <p class="detailsJapon">Hotels : Red Planet Tokyo
+                    Asakusa, Hakone
+                    Yutowa, Shinmachi
+                    Bettei, Nest Hotel
+                    Osaka Umeda
+                    </p>
+                <p id="nbPlacesJapon" class="detailsJapon" value="30">Nombre de places : 30</p>
+                <p class="detailsJapon">Prix :2500 €</p>
+                <button onclick="reserverJapon()"class="reserver" >Réserver</button>
+                </div>
+
+
+        </div>
+
+        <br><br><br>
+        
+        <img id="peloponnese"class="imageGrece" src="image grece/laconie-village-pierre-peloponnese-grece.jpg">
+        <img id="thessalonique"class="imageGrece" src="image grece/fb-grece-thessalonique.1572339.jpg">
+        <img id="athene" class="imageGrece" src="image grece/grece antique.jpg">
+        <div id="Grece">
+            <br><br><br><br>
+            <h1>Visite historique en Grèce</h1>
+            <p>Venez participer a notre circuit sur l'histoire de la grèce, la mythologie Grec, son évolution au fil des années,
+                ses traditions, ses spécialités culinaire, le tout saupoudré de baignade dans la mer méditerranée.</p>
+                <button onclick="clickDetailsGrece()" class="details" id="detailsGrece">Détails</button>
+                <div class="blockDetailsGrece blockDetails" id="blockDetailsGrece">
+                    <img align="right" onclick="crossGrece()" class="cross" id="GreceCross" src="img_icon/times-solid.svg">
+                <p class="detailsGrece">Villes : Athènes, Le péloponnèse, Thessalonique</p>
+                <p class="detailsGrece">Début : 01/09/22</p>
+                <p class="detailsGrece">Fin : 15/09/22</p>
+                <p class="detailsGrece">Hotels : Candia hotel,
+                    Nikki Beach Resort
+                    & Spa,
+                    Electra Palace
+                    Thessaloniki</p>
+                <p id="nbPlacesGrece" class="detailsGrece" value="20">Nombre de places : 20</p>
+                <p class="detailsGrece">Prix : 1000 €</p>
+                <button class="reserver">Réserver</button>
+            </div>
+        </div>
+        <br><br><br>
+
+        <img id="kamloops"class="imageCaribous" src="image canad/tourism-kamloops-peter-olsen.png">
+        <img id="vancouver-ile" class="imageCaribous" src="image canad/vancouver-ile.jpg">
+        <img id="vancouver"class="imageCaribous" src="image canad/Vancouver.jpg">
+        
+        <div id="Caribous">
+            <br><br><br><br>
+            <h1>Voyage au pays des caribous</h1>
+            <p>Prenez place ! Destination le Canada, Vous pourrez visité les refuges pour animaux, la production d'érable dans une usine spécialisé,
+                dégustation de produits locaux. Et encore plein d'autres activitées vous attendes !</p>
+                <button onclick="clickDetailsCaribous()" class="details" id="detailsCaribous">Détails</button>
+                <div class="blockDetailsCaribous blockDetails" id="blockDetailsCaribous">
+                    <img align="right" onclick="crossCaribous()" class="cross" id="CaribousCross" src="img_icon/times-solid.svg">
+                <p class="detailsCaribous">Villes : Vancouver, Kamloops, Vancouver</p>
+                <p class="detailsCaribous">Début : 01/07/22</p>
+                <p class="detailsCaribous">Fin : 10/07/22</p>
+                <p class="detailsCaribous">Hotels : Moda Hotel,
+                    The Plaza Hotel</p>
+                <p id="nbPlacesCaribous" class="detailsCaribous" value="25">Nombre de places : 25</p>
+                <p class="detailsCaribous">Prix : 3000 €</p> 
+                <button onclick="" class="reserver">Réserver</button>
+            </div>
+            </div>
+
+           
+
+            <script src="script_Circuits.js"></script>
+    </body>
+</html>

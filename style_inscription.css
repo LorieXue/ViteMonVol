@@ -1,0 +1,162 @@
+#barreAccueil {
+    padding : 10px;
+    background-color:white;
+    background: none;
+    color: rgb(23, 23, 61);
+}
+
+a {
+    font-style:normal;
+    text-decoration: none;
+}
+
+#barreAccueil:hover {
+    background: linear-gradient(to right,orange, blue);
+    /*background-color: rgb(212, 251, 255);*/
+}
+#logo{
+    width: 400%;
+}
+table{
+    width: 90%;
+    margin : 5%;
+    margin-top: 2%;
+    font-size: 130%;
+}
+.objetAccueil {
+    width : 33%;
+    border-style : none;
+    border-radius: 10%;
+    border-color:orangered;
+     
+}
+
+a:hover {
+    color : orange;
+}
+
+html {
+    background-color: rgb(226, 252, 255);
+    width: 100%;
+}
+
+
+
+
+
+
+/*_____________________*/
+button {
+    border-style :solid;
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(82, 82, 219);
+    margin-left: 50%;
+    border-radius: 0%;
+    padding : 2%;
+    color : white;
+
+
+}
+
+
+#INSCRIPTION{
+    background: linear-gradient(to right,rgb(94, 94, 158),rgb(0, 0, 253));
+    border-style: none;
+    color : white;
+    
+}
+
+#DANSINSCRIPTION {
+    background-color: rgb(255, 255, 255);
+    padding : 1%;
+    border-style: solid;
+    border-radius: 2%;
+    color: black;
+    margin-right: 50%;
+    line-height: 30px;;
+}
+
+label {
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+
+button:hover {
+    color : aqua;
+    border-color: blue;
+    background-color: rgb(18, 91, 150);
+    border-width: 5px;;
+}
+a {
+    color : black;
+}
+
+p{
+    align : center;
+    margin-left: 20%;
+}
+
+a:hover {
+    color : blue;
+}
+
+.birthday {
+    align : center;
+}
+
+#tableNaissance {
+    border-style : none;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+
+
+
+
+/*------*/
+
+html {
+    height: 10%;
+}
+
+#DANSCONNEXION {
+    width: 29%;
+    margin: 0%;
+    margin-left: 0%;
+    position: relative;
+    right: -60%;
+    top : -750%;
+    height: 700%;
+    border-style: solid;
+    border-radius: 2%;
+    font-size: 17px;
+    background-color: white;
+}
+
+#CONNEXION {
+    background:linear-gradient(to right,orange,orangered);
+    color : white;
+    border-style: none;
+    border-radius: 2%;
+}
+
+#connexionBouton {
+    padding: 5%;
+    font-size: 100%;
+    background-color: orange;
+}
+#connexionBouton:hover {
+    color : rgb(255, 214, 139);
+    border-color: rgb(255, 136, 0);
+    background-color: rgb(150, 102, 14);
+    border-width: 5px;;
+}
+
+
+html {
+    background-color: rgb(141, 185, 230);
+    background-size: 100% 1200px;;
+    background-repeat: no-repeat;
+}
