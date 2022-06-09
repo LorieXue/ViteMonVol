@@ -1,0 +1,98 @@
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style_inscription.css">
+        <title>Page de connexion</title>
+        
+        
+    </head>
+
+
+    <body>
+        <div></div>
+
+        <table id="barreAccueil">
+            <tr>
+                <td >
+                    <img id="logo" src="telegram-brands.svg">
+                </td>
+                <td align="center" class="objetAccueil">
+                    <a href="page_accueil.html"> ACCUEIL </a>
+                </td>
+                <td align="center" class="objetAccueil">
+                    <a href="circuits.html" >LISTES DES CIRCUITS </a>
+                </td>
+                <td align="center"class="objetAccueil">
+                    <a href="page dinscription.html">INSCRIPTION/CONNEXION </a>
+                </td>
+            </tr>
+        </table>  
+
+
+        <fieldset id="DANSINSCRIPTION">
+        <form>
+            <fieldset id="INSCRIPTION" align="center">
+                INSCRIPTION
+            </fieldset>
+            <br>
+                <label>Nom :</label> <input type="text" placeholder="Xue" required> <br>
+                <label>Prénom :</label> <input type="text" placeholder="Lorie" required>
+                <br>
+                
+                <label>Email :</label> <input type="email" placeholder="example@email.com" required>
+                <br> 
+                <label>Tél:</label> <input type="number" placeholder="(facultatif)">
+                <br>
+                <label>Nom d'utilisateur : </label> <input type="text" required>
+                <br>
+                <label>Mot de passe :</label> <input type="password" required>
+                <br><br>
+                            <label>Date de naissance:</label> 
+                                <fieldset id="tableNaissance">
+                                <input class="birthday" type="number" step="1" min="1" max="31" placeholder="jj" required>     
+                                <input class="birthday" type="number" step="1" min="1" max="12" placeholder="mm" required>
+                                <input class="birthday" type="number" step="1" min="1900" max="2021" placeholder="aaaa" required>
+                            </fieldset><br>      
+                <label>Genre :</label>
+                <select required>
+                
+                    <option value="">sélectionner</option>
+                    <option>Femme</option>
+                    <option>Homme</option>
+                    <option>Autre</option>
+                
+                </select>
+
+                <br><br>
+
+                <button type="submit">S'inscrire</button>
+            
+        
+            </fieldset>
+        </form>
+        
+        <fieldset id="DANSCONNEXION">
+        <br>
+            <form>
+            <fieldset id="CONNEXION" align="center">
+                CONNEXION
+            </fieldset>
+            <br><br>
+                <label>Nom d'utilisateur :</label> <input type="text" required>
+                <br><br>    
+                <label>Mot de passe :</label> <input type="password" required>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <button id="connexionBouton" align="center" type="submit">Se connecter</button>
+
+        </fieldset>
+        </form>
+
+
+    </body>
+
+
+</html>
